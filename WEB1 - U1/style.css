@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+}
+
+.pre-nav{
+    content: '';
+    background-color: #145dbd;
+    width: 100v;
+    height: 80px;
+    display: block;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+  }
+
+.nav-links a{
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 80px;
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.section1 button{
+    background-color: #722f37;
+    width: 200px;
+}
+
+.section1-content1{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.section1-content1 p{
+    width: 40vw;
+}
+
+.h2-1{
+    color: #145dbd;
+}
+
+.h2-2{
+    color: #722f37;
+}
+
+.section2{
+    padding: 40px;
+    background-color: #145dbd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 div{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 400px;
+    align-items: center;
+}
+
+.section2 div p{
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+}
+
+.section2 div button{
+    background-color: #722f37;
+    margin-right: 30px;
+}
+
+.section2 div button:hover{
+    background-color: #46141a;
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.section3-h2-1{
+    color: #145dbd;
+}
+
+.section3-h2-2{
+    color: #722f37;
+}
+
+.section3-1{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.section3-1 button{
+    background-color: #722f37;
+}
+
+.section3-2{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.section3-2 div{
+    margin: 10px;
+}
+
+.section3-3{
+    width: 30vw;
+}
+
+.section3-3 input{
+    background-color: #b4b4b4;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.section3-4 input{
+    background-color: #b4b4b4;
+    padding: 36px;
+    margin-top: 10px;
+    width: 40vw;
+    height: 150px;
+}
